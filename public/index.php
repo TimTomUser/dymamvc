@@ -1,4 +1,5 @@
-<?php 
+<?php
+//Bonjour Thomas :)
 require_once '../config/database.php';
 //CONSTANTE DB, DB_USER, DB_PASSWORD
 $database= new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB, DB_USER, DB_PASSWORD);
