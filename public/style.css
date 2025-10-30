@@ -1,0 +1,113 @@
+* {
+     font-family: "Indie Flower", cursive;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url('img/Drift Between the Clouds, Borys Kernytskyi.jpg');
+    background-size: cover;
+    opacity: 0.7;
+}
+.navbar img {
+    width: 8% !important;
+    height:auto;
+}
+/*#logo {
+    width: 8% !important;
+    height:auto;
+}*/
+
+h1 {
+    text-shadow: 5px 5px yellowgreen;
+    animation-name: test3r;
+    animation: test3r 2s infinite;
+}
+
+#pub {
+    color: yellowgreen;
+    font-weight: 800;
+}
+
+@keyframes test3r {
+    10% {
+        transform: scale('0.8');
+        transform: translate(50px, 10px);
+    }
+
+    70% {
+        transform: scale('1.2');
+        transform: translate(10px, 50px);
+    }
+
+    91% {
+        transform: scale('0.5');
+        transform: translate(50px, 10px);
+    }
+
+}
+
+li {
+    padding-bottom: 5%;
+}
+
+#del:hover::before{
+    content:'␡ ';
+    color: black;
+}
+
+#formulary {
+    
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+#formulary p {
+    font-size: 1.5rem;
+}
+
+#formulary button {
+    font-weight: bold;
+}
+
+button:hover {
+    text-shadow: 5px 5px yellowgreen;
+    animation-name: bTn;
+    animation: bTn 4s infinite;
+}
+
+@keyframes bTn {
+    10% {
+        transform: scale('0.8');
+        transform: translate(50px, 10px);
+    }
+
+    70% {
+        transform: scale('1.2');
+        transform: translate(10px, 50px);
+    }
+
+    91% {
+        transform: scale('0.5');
+        transform: translate(50px, 10px);
+    }
+
+}
+
+#flex {
+    width: 30px;
+    height: auto;
+}
+
+.thumbnail img {
+    max-width:150px !important;
+    height: auto;
+    margin:10px;
+}
